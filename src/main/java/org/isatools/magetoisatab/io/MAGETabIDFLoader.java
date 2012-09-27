@@ -513,7 +513,7 @@ public class MAGETabIDFLoader {
 
                             //obtain the list associated to that given key
                             List<String> correspondingList = mergedTables.get(key);
-                            if (otherKeyCount<mergedTables.keySet().size()-1)   {
+                            if (otherKeyCount<mergedTables.keySet().size())   {
                             // now obtain the ith element of that associated list
                                 if (sampleRecordIndex < correspondingList.size()) {
                                     studyRecord += correspondingList.get(sampleRecordIndex) + "\t";
